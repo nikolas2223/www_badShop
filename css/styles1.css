@@ -1,0 +1,231 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* header*/
+header{
+	width:98%;
+	padding-left: 1%;
+	padding-right: 1%;
+	background: #e9ede3;
+	height: auto;
+}
+
+a{
+	text-decoration:none;
+	color: black;
+}
+
+a:visited{	
+	color: black;
+}
+
+header .phone{
+	text-align: right;
+	height: auto;
+	font-size: 1.4em;
+	color:black;
+}
+
+header .phone a{
+	color: black;
+}
+
+header .phone a:visited{
+	color: black;
+}
+
+.wrapper_head{
+	height: auto;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+header .wrapper_head nav{
+	height:auto;
+	font-size: 1.4em;
+	clear: left;
+}
+
+header .wrapper_head nav a{
+	margin-right: 24px;
+}
+
+header .login{
+	width: auto;
+	height: auto;
+	text-align: right;
+	margin-top: 10px;
+}
+
+header .login a{
+	margin-left: 28px;
+}
+
+.logo{
+	height: 40px;
+	width: 40px;
+	float: left;
+}
+/* end header*/
+
+/*body*/
+body{
+	background: #fafcf9;
+}
+.wrapper{
+	height: 100%;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 10px;
+	background: #fafcf9;
+}
+
+/* left block */
+.wrapper .left{
+	height: auto;
+	width: 15%;
+	background: #F9F9F9;
+	margin-left: 10px;
+	float: left;
+	border: 1px solid gray;
+	border-radius: 5px;
+	z-index: 2;
+}
+
+.wrapper .left a{
+	height: auto;
+	width: 100%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	float: left;
+	border-bottom: 2px solid #FFEFEF;
+	z-index: 1;
+}
+
+.wrapper .left a:hover{
+	background: #DBDBDB;
+}
+/* end left block */
+
+/* center block */
+.wrapper .center{
+	height: auto;
+	width: 64%;
+	background: #fafcf9;
+	float: left;
+	margin-left: 2%;
+}
+
+/*
+.wrapper .center a{
+	
+}
+*/
+
+.wrapper .center .product{
+	width: 150px;
+	height: 210px;
+	background: #fafcf9;
+	transition: 0.3s;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.wrapper .center .product .But_AddProd{
+	background: #59c438;
+	border-radius: 5px;
+	margin-left: 10%;
+	width: 80%;
+	height: 30px;
+	Color: #ecf9e5;
+	margin-top: 7px;
+	background: linear-gradient(to top, #499e43, #59c438);
+	box-shadow:
+	1px 0px rgb(77,163,73), 1px 1px rgb(51,122,47),
+	2px 1px rgb(76,162,72), 2px 2px rgb(50,121,46),
+	3px 2px rgb(75,161,71), 3px 3px rgb(49,120,45);
+}
+.wrapper .center .product .But_AddProd:hover{
+	background: linear-gradient(to top, #58b752, #58b752); 
+	box-shadow:
+	1px 0px rgb(134,204,130), 1px 1px rgb(119,175,116),
+	2px 1px rgb(133,203,129), 2px 2px rgb(118,174,115),
+	3px 2px rgb(132,202,128), 3px 3px rgb(117,173,114);
+}
+
+.wrapper .center .product .But_AddProd .text{
+	text-align:center;
+	padding-top: 4px;
+}
+
+.wrapper .center .product:hover{
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+	padding: 0px;
+}
+
+.wrapper .center .product img{
+	width: 130px;
+	height: 130px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.wrapper .center .product .name{
+	height: auto;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+/* end center block*/
+
+/* right advert block */
+
+.wrapper .right{
+	width: 15%;
+	height: auto;
+	background: cyan;
+	float: left;
+	margin-left: 2%;
+	border: 1px solid gray;
+	border-radius: 10px 0px 10px 0px;
+}
+/* end body */
+
+/* footer */
+footer{
+	border-top: 2px solid #777f67;
+	float:left;
+	width:100%;
+	height: 60px;
+	background:#e9ede3;
+}
+footer .footwrap{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	background: #e9ede3;
+}
+footer .footwrap .left{
+	background: #e9ede3;
+	margin-top:19px;
+	width: 50%;
+	height: 25px;
+	float:left;
+}
+footer .footwrap .right{
+	background: #e9ede3;
+	margin-top:19px;
+	width: 50%;
+	height: 25px;
+	text-align: right;
+	float:left;
+}
+
+/* end footer*/
